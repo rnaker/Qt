@@ -15,6 +15,10 @@ public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
 
+private slots:
+    void on_commitButton_clicked();
+    void on_cancelButton_clicked();
+
 private:
     Ui::Widget *ui;
 };
